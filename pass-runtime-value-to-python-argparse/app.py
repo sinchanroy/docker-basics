@@ -3,7 +3,7 @@ import time
 
 def input():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--number', help='take program number as input')
+    parser.add_argument('number', help='take program number as input')
     args = parser.parse_args()
     return args
 
